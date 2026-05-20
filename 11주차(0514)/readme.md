@@ -1,12 +1,14 @@
 # chap07 pdf
 - '?'는 개인적으로 공부 후 readme에 기재
 
-## 라우터?
+## 라우터? - 두 개 이상의 서로 다른 네트워크를 연결하는 장치
+- 네트워크를 통과하는 데이터 패킷(Data Packet)의 목적지 주소를 추출하여 가장 적절한 경로를 설정하고, 그 경로에 따라 패킷을 다음 장치로 전송
 ## 게이트웨이?
 - 무선 액세스 포인트
+- 일종의 고용량 라우터(Router)로서, 근거리 통신망(LAN)을 더 넓은 외부 인터넷(Internet) 네트워크에 연결해 주는 컴퓨터나 장치를 의미
 ---
 ## 인터넷
-- http?
+- http : 서버(Web Server)와 클라이언트(Client, 웹 브라우저)가 웹상에서 상호 통신할 때 사용하는 기본 프로토콜
 ## TCP/IP
 ## 호스트명과 IP 주소?
 ## 호스트명
@@ -54,7 +56,7 @@ $ finger 사용자명
 ## FTP 서버
 - File Transfer Protocol Server, 인터넷을 통해 파일을 주고받기 위해 구축된 전용 컴퓨터
 ---
-## 시스템 콜?
+## 시스템 콜
 
 # chap 7 pdf
 ## 파일 및 레코드 잠금의 원리
@@ -77,10 +79,15 @@ $ finger 사용자명
 - LOCK_SH : 공유 잠금(Shared Lock)
 - LOCK_EX : 배타 잠금(Exclusive Lock)
 <img width="545" height="188" alt="image" src="https://github.com/user-attachments/assets/3b942a99-0198-4c12-8eff-8f459d25633a" />
+
 ---
+
 ## 레코드 잠금
 ## 잠금 함수: fcntl()
-## 간단한 잠금 함수?
+## 간단한 잠금 함수
+- 복잡한 fcntl() 매개변수 구조체를 사용하지 않고, 현재 파일 디스크립터의 읽기/쓰기 포인터 위치를 기준으로 간편하게 잠금을 수행할 수 있도록 지원하는 함수
+- <img width="722" height="255" alt="image" src="https://github.com/user-attachments/assets/224c009d-6d8e-46c9-8043-e31d23915db4" />
+
 ---
 ## 권고잠금과 강제 잠금
 ### 권고 잠금
