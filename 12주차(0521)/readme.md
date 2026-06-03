@@ -83,13 +83,13 @@ Chap 11
 
  Chap 12
  <img width="763" height="576" alt="image" src="https://github.com/user-attachments/assets/713190d1-9efc-415f-90ef-0121a9104cc0" />
-### 링크(Link): 기존 파일에 접근하기 위해 부여하는 또 다른 독립적인 이름입니다.
+### 링크(Link): 기존 파일에 접근하기 위해 부여하는 또 다른 독립적인 이름
 
-### 하드링크와 하드링크 구현: 새로운 이름이 원본 파일을 대표하는 i-노드(i-node)를 직접 가리키도록 구조적으로 구현합니다.
+### 하드링크와 하드링크 구현: 새로운 이름이 원본 파일을 대표하는 i-노드(i-node)를 직접 가리키도록 구조적으로 구현
 
-### 심볼릭 링크(Symbolic Link): 원본 파일의 경로명(Path)을 내용으로 가지는 특수 파일로 간접 참조 역할을 합니다.
+### 심볼릭 링크(Symbolic Link): 원본 파일의 경로명(Path)을 내용으로 가지는 특수 파일로 간접 참조 역할
 
-### 시스템 호출(System Call): 응용 프로그램이 파일 제어 등 운영체제 커널(Kernel)에 서비스를 요청하는 프로그래밍 인터페이스입니다.
+### 시스템 호출(System Call): 응용 프로그램이 파일 제어 등 운영체제 커널(Kernel)에 서비스를 요청하는 프로그래밍 인터페이스
  ### fopen() : 텍스트 파일 열기
 <img width="696" height="315" alt="image" src="https://github.com/user-attachments/assets/bbc866d2-559c-42b8-a1a3-e3cac2d9d05a" />
 
@@ -97,15 +97,15 @@ Chap 13
 ### 프로세스 이미지
 <img width="737" height="444" alt="image" src="https://github.com/user-attachments/assets/d57dd885-27fa-41a9-aa54-9284ecf49077" />
 
-### size 명령어: 지정한 실행 파일이 메모리에서 차지할 영역별 크기(바이트)를 출력합니다.
+### size 명령어: 지정한 실행 파일이 메모리에서 차지할 영역별 크기(바이트)를 
 
-### 프로세스 ID(PID): 운영 체제가 각각의 프로세스를 구별하기 위해 고유하게 부여하는 식별 번호입니다.
+### 프로세스 ID(PID): 운영 체제가 각각의 프로세스를 구별하기 위해 고유하게 부여하는 식별 번호
 
 Chap14
-### sudo: 일반 사용자 계정에서 관리자(root) 권한을 일시적으로 빌려 명령(Superuser do)을 수행하게 해줍니다.
+### sudo: 일반 사용자 계정에서 관리자(root) 권한을 일시적으로 빌려 명령(Superuser do)을 수행하게 해줌
 
-### 시스템 부팅(System Booting): fork와 exec 시스템 호출을 통해 진행되며 init 혹은 systemd가 지정된 런레벨(Runlevel)에 따라 환경을 초기화합니다.
+### 시스템 부팅(System Booting): fork와 exec 시스템 호출을 통해 진행되며 init 혹은 systemd가 지정된 런레벨(Runlevel)에 따라 환경을 초기화
 
-### shutdown 명령어: 시스템을 안전하게 정지하거나 재부팅하도록 예약합니다.
+### shutdown 명령어: 시스템을 안전하게 정지하거나 재부팅하도록 예약
 
-### 데몬 프로세스(Daemon Process): 백그라운드에서 동작 대기 상태에 있다가 요청 시 특정 서비스(예: httpd, sshd)를 제공합니다.
+### 데몬 프로세스(Daemon Process): 백그라운드에서 동작 대기 상태에 있다가 요청 시 특정 서비스(예: httpd, sshd)를 제공
